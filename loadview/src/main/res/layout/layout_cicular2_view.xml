@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mingle.widget.CircularProgressBar
+        android:id="@+id/progressView"
+        android:layout_width="32dp"
+        app:progressType="type2"
+        android:layout_centerInParent="true"
+        android:layout_height="32dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/loadingTV"
+        android:layout_below="@+id/progressView"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="circularProgressColor" format="color" />
+        <attr name="progressType" format="enum">
+            <enum name="type1" value="0" />
+            <enum name="type2" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LoadFrameLayout">
+        <attr name="loadViewType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="circular" value="1" />
+            <enum name="circular2" value="2" />
+            <enum name="dialog" value="3" />
+            <enum name="grayScale" value="4" />
+            <enum name="shape" value="5" />
+            <enum name="custom1" value="6" />
+            <enum name="custom2" value="7" />
+        </attr>
+        <attr name="progressColor" format="color"/>
+        <attr name="loadText" format="string"/>
+        <attr name="emptyView" format="reference"/>
+        <!--当界面变化自己loadingView 自动消失-->
+        <attr name="autoDismiss" format="boolean" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="def_progress_color">#1E88E5</color>
+    <color name="def_dialog_progress_color">#dfffffff</color>
+</resources>
